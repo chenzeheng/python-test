@@ -15,8 +15,8 @@ file_path = "C:/Users/Administrator/Desktop/debt_" + datetime.strftime(datetime.
 
 
 def execute_sql(dbargs):
-    con = pymysql.connect('rm-bp17g1e8f9b33wqxno.mysql.rds.aliyuncs.com', 'xgqq_read_gxl', 'xXgqqxgqq11qgxx!!!aaa',
-                          'xgqq-prod', 3306, charset='utf8')
+    con = pymysql.connect('xxx', 'admin', passwd',
+                          'db', port, charset='utf8')
     cur = con.cursor()
     sql = """
         SELECT
@@ -96,10 +96,10 @@ def send_email():
     # 发送邮件服务器
     smtpserver = 'smtp.exmail.qq.com'
     # 发送邮箱用户名和授权码
-    user = 'chenzeheng@xgqq.com'
-    password = 'tzMdz4WaKdfT2Em8'
+    user = 'xxx@xgqq.com'
+    password = 'xxx'
     # 发送邮箱
-    sender = 'chenzeheng@xgqq.com'
+    sender = 'xxx@xgqq.com'
     # 接受邮箱
     receiver = 'xxx@xgqq.com'
 

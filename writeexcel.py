@@ -101,7 +101,7 @@ def send_email():
     # 发送邮箱
     sender = 'chenzeheng@xgqq.com'
     # 接受邮箱
-    receiver = 'weiyun@xgqq.com'
+    receiver = 'xxx@xgqq.com'
 
     # 创建一个带附件的实例
     message = MIMEMultipart()
